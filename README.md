@@ -5,7 +5,8 @@ instrukcja przyklad7-mvn:
 1. Instalacja i konfiguracja mvn: http://www.avajava.com/tutorials/lessons/what-is-maven-and-how-do-i-install-it.html
 2. Otwieramy Command Window (Start-->uruchom-->cmd)
 3. przechodzimy do katalogu gdzie ma byc zapisana aplikacja (instrukcja cd działa)
-4. wpisujemy polecenie: mvn archetype:generate-DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+4. wpisujemy polecenie: mvn archetype:generate -DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+--> w nawiasach klamrowych swoje nazy np. mvn archetype:generate -DgroupId=com.Ibaw4 -DartifactId=HelloWorld -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 5. otwieramy powstały projekt w eclipse/intelliJ
 6. dodajemy folder "java" w folderze "src/main"
 7. w folderze java tworzymy plik "HelloWorld.java":
