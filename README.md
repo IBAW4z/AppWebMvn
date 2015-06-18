@@ -1,5 +1,5 @@
 # AppWebMvn
-przykład z wykładu 7 - AplikacjaWebowa przy pomocy Maven
+przykład z wykładu 7 - AplikacjaWebowa przy pomocy Maven (bez tomcata)
 
 instrukcja przyklad7-mvn:
 1. Instalacja i konfiguracja mvn: http://www.avajava.com/tutorials/lessons/what-is-maven-and-how-do-i-install-it.html
