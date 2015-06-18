@@ -5,7 +5,7 @@ instrukcja przyklad7-mvn:
 1. Instalacja i konfiguracja mvn: http://4programmers.net/Java/Maven#id-Instalacja-i-konfiguracja--Mavena
 2. Otwieramy Command Window (Start-->uruchom-->cmd)
 3. przechodzimy do katalogu gdzie ma byc zapisana aplikacja (instrukcja cd działa)
-4. wpisujemy polecenie: mvnarchetype:generate-DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+4. wpisujemy polecenie: mvn archetype:generate-DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 5. otwieramy powstały projekt w eclipse/intelliJ
 6. dodajemy folder "java" w folderze "src/main"
 7. w folderze java tworzymy plik "HelloWorld.java":
