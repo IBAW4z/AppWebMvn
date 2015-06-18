@@ -2,7 +2,7 @@
 przykład z wykładu 7 - AplikacjaWebowa przy pomocy Maven
 
 instrukcja przyklad7-mvn:
-1. Instalacja i konfiguracja mvn: http://4programmers.net/Java/Maven#id-Instalacja-i-konfiguracja--Mavena
+1. Instalacja i konfiguracja mvn: http://www.avajava.com/tutorials/lessons/what-is-maven-and-how-do-i-install-it.html
 2. Otwieramy Command Window (Start-->uruchom-->cmd)
 3. przechodzimy do katalogu gdzie ma byc zapisana aplikacja (instrukcja cd działa)
 4. wpisujemy polecenie: mvnarchetype:generate-DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
