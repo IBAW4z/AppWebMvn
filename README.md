@@ -12,7 +12,7 @@ instrukcja przyklad7-mvn:<br />
 7. w folderze java tworzymy plik "HelloWorld.java":<br />
 8. edytujemy plik web.xml (w folderze src/webapp/web-inf):<br />
 9. edytujemy plik pom.xml<br />
-10. w cmd wpisujemy: mvn compile<br />
+10. w cmd (po przejsciu do folderu /HelloWorld) wpisujemy: mvn compile<br />
 potem: mvn package<br />
 (gdzies w ciagu znaczkow powinno byc BUILD SUCCES) --> pierwsze uruchamianie bedzie dlugie bo sciaga sobie wszystkie pluginy i to co mu potrzebne (nie wiem jak to sie ma do transferu jesli ktos ma limitowany Internet ;/)<br />
 11. wpisujemy w cmd: mvn jetty:run -Djetty.port=8888 (lub jakis inny numer, ale nie 8080 bo to blokuje Labview na pewno)<br />
